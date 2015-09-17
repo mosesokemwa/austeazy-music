@@ -1,0 +1,21 @@
+header {
+	background-color: #fff;
+}
+.img p {
+	font-size: 80px;
+	font-weight: 400;
+	font-family: font-family: 'Oswald', sans-serif;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	color: indigo;
+	transform-style: preserve-3d;
+}
+.jumbotron {
+	width: 99%;
+}
+span {
+	font-size: 100px;
+	font-weight: 600;
+	font-family: cursive;
+}
