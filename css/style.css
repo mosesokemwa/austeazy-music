@@ -1,20 +1,20 @@
 body {
 	height: 900%;
+	background-color: #fff238;
+	border: 2px solid #fff238;
 }
-header {
-	background-color: #fff;
-}
+
 .img p {
 	font-size: 80px;
 	font-weight: 400;
 	font-family: font-family: 'Oswald', sans-serif;
 	position: absolute;
-	top: 60%;
+	top: 80%;
 	left: 28%;
 	color: white;
 }
 .jumbotron {
-	width: 99%;
+	width: 100%;
 }
 span {
 	font-size: 100px;
@@ -23,14 +23,51 @@ span {
 }
 .logo {
 	position: absolute;
-	top: 30%;
+	top: 45%;
 	right: 43%;
-	height: 25%;
+	height: 100%;
 	width: 20%;
 }
 iframe {
 	height: 30%;
 	width: 45%;
 	float: left;
-	margin: 20px;
+	margin: 10px;
+}
+
+.parallax {
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	overflow-y: hidden;
+	perspective: 1px;
+}
+.parallax-back {
+	display: block;
+	background: #000;
+	height: 400px;
+
+}
+.parallax-base {
+	display: block;
+	margin: 0;
+	margin-top: 80px;
+	width: 100%;
+	padding: 5rem 8rem;
+}
+div[class*="parallax-"] {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+div.parallax-base {
+	padding: 30vh 0;
+	transform: translateZ(0);
+}
+
+div.parallax-back {
+	transform: translateZ(-1px) scale(2);
 }
