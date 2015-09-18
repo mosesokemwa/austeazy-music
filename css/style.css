@@ -4,6 +4,19 @@ body {
 	border: 2px solid #fff238;
 }
 
+     /*header*/
+
+	/*soundcloud*/
+
+iframe {
+	height: 30%;
+	width: 48%;
+	float: left;
+	margin: 10px;
+}
+
+	/*images logo & jumbotron*/
+
 .img p {
 	font-size: 80px;
 	font-weight: 400;
@@ -28,18 +41,13 @@ span {
 	height: 100%;
 	width: 20%;
 }
-iframe {
-	height: 30%;
-	width: 45%;
-	float: left;
-	margin: 10px;
-}
+
+		/*parallax*/
 
 .parallax {
 	height: 100vh;
 	overflow-x: hidden;
 	overflow-y: auto;
-	overflow-y: hidden;
 	perspective: 1px;
 }
 .parallax-back {
@@ -70,4 +78,9 @@ div.parallax-base {
 
 div.parallax-back {
 	transform: translateZ(-1px) scale(2);
+}
+
+.primary-nav li {
+	float: left;
+	font-size: 20px;
 }
