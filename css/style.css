@@ -28,3 +28,9 @@ span {
 	height: 25%;
 	width: 20%;
 }
+iframe {
+	height: 30%;
+	width: 45%;
+	float: left;
+	margin: 20px;
+}
