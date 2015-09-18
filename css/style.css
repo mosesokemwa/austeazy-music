@@ -6,13 +6,10 @@ body {
 
      /*header*/
 
-	/*soundcloud*/
+	/*Colored raised button*/
 
-iframe {
-	height: 30%;
-	width: 48%;
-	float: left;
-	margin: 10px;
+.nav {
+	position: fixed;
 }
 
 	/*images logo & jumbotron*/
@@ -36,51 +33,32 @@ span {
 }
 .logo {
 	position: absolute;
-	top: 45%;
-	right: 43%;
-	height: 100%;
-	width: 20%;
+	top: 15%;
+	left: 10%;
+	height: 60%;
+	width: 30%;
 }
-
-		/*parallax*/
-
-.parallax {
-	height: 100vh;
-	overflow-x: hidden;
-	overflow-y: auto;
-	perspective: 1px;
-}
-.parallax-back {
-	display: block;
-	background: #000;
-	height: 400px;
-
-}
-.parallax-base {
-	display: block;
-	margin: 0;
-	margin-top: 80px;
-	width: 100%;
-	padding: 5rem 8rem;
-}
-div[class*="parallax-"] {
-	bottom: 0;
-	left: 0;
-	position: absolute;
-	right: 0;
-	top: 0;
-}
-
-div.parallax-base {
-	padding: 30vh 0;
-	transform: translateZ(0);
-}
-
-div.parallax-back {
-	transform: translateZ(-1px) scale(2);
-}
-
 .primary-nav li {
+	text-decoration: none;
 	float: left;
 	font-size: 20px;
+	margin: 60px;
+	margin-top: 10px;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+
+	font-weight: 600;
+	margin-left: 80px;
+	text-decoration: none;
+	color: black;
+	border: 1px solid  black;
+	display: inline-block;
+}
+ul {
+	list-style-type: none;
+	background-color: yellow;
+}
+iframe {
+	position: absolute;
+	top: 120px;
 }
