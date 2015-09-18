@@ -1,6 +1,8 @@
+body {
+	height: 900%;
+}
 header {
 	background-color: #fff;
-	height: 400%;
 }
 .img p {
 	font-size: 80px;
