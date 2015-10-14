@@ -1,5 +1,11 @@
-.banner {
+body {
+	background-color: #fff;
+}
+
+.mdl-layout__header--transparent {
 	background: url('../assets/austeezy.jpg') center / cover;
+	height: 500px;
+	overflow: hidden;
 }
 
 .banner .mdl-layout__header,
@@ -30,9 +36,28 @@
 	font-size: 60px;
 	font-weight: 500;
 	color: yellow;
-	margin-left: 400px;
+	text-align: center;
 }
 
 .mdl-layout__drawer {
 	background-image: url(../assets/mainlogo.jpg);
+}
+.mdl-grid .mdl-cell--8-col {
+	border-bottom: 2px solid black;
+	margin-bottom: 60px;
+}
+.mdl-grid .mdl-cell--8-col h4 {
+	text-align: center;
+	font-family: ruthie, sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	color: yellow;
+}
+
+.mdl-grid .mdl-cell--8-col p {
+	font-family: averia-serif-libre, serif;
+	font-size: 15px;
+	padding-bottom: 70px;
+	text-align: center;
+	letter-spacing: .1em;
 }
