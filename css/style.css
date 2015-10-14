@@ -1,5 +1,5 @@
 .banner {
-	background: url('http://www.getmdl.io/assets/demos/transparent.jpg') center / cover;
+	background: url('../assets/austeezy.jpg') center / cover;
 }
 
 .banner .mdl-layout__header,
@@ -7,4 +7,32 @@
 	/* This background is dark, so we set text to white. Use 87% black instead if
      your background is light. */
 	color: white;
+}
+
+.mdl-navigation__linkicon {
+	font-size: 40px;
+	margin: 20px;
+	/*	color: red;*/
+}
+
+.mdl-navigation__link.icon {
+	color: red;
+	font-size: 40px;
+}
+
+.mainlogo {
+	margin-left: 60px;
+	width: 23%;
+}
+
+.mdl-layout__content h3 {
+	font-family: ruthie, sans-serif;
+	font-size: 60px;
+	font-weight: 500;
+	color: yellow;
+	margin-left: 400px;
+}
+
+.mdl-layout__drawer {
+	background-image: url(../assets/mainlogo.jpg);
 }
