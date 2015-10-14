@@ -4,7 +4,7 @@ body {
 
 .mdl-layout__header--transparent {
 	background: url('../assets/austeezy.jpg') center / cover;
-	height: 500px;
+	height: 600px;
 	overflow: hidden;
 }
 
@@ -12,20 +12,32 @@ body {
 .banner .mdl-layout__drawer-button {
 	/* This background is dark, so we set text to white. Use 87% black instead if
      your background is light. */
-	color: white;
+	color: #000;
+}
+
+.mdl-layout__drawer {
+	height: 60%;
+}
+
+.mdl-layout-title.port {
+	color: #fff;
+	font-size: 60px;
+	font-weight: 500;
+	font-family: ruthie, sans-serif;
+	text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.9); /*change this to yellow*/
+
 }
 
 .mdl-navigation__linkicon {
 	font-size: 40px;
 	margin: 20px;
-	text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.99);
+	text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.9);
 }
 
 .mdl-navigation__link.icon {
 	color: red;
 	font-size: 40px;
-	text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.99);
-
+	text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.9);
 }
 
 .mainlogo {
@@ -45,10 +57,13 @@ body {
 .mdl-layout__drawer {
 	background-image: url(../assets/mainlogo.jpg);
 }
+
 .mdl-grid .mdl-cell--8-col {
 	border-bottom: 2px solid black;
 	margin-bottom: 50px;
+	text-rendering: optimizeLegibility;
 }
+
 .mdl-grid .mdl-cell--8-col h4 {
 	text-align: center;
 	text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.8);
@@ -60,8 +75,9 @@ body {
 
 .mdl-grid .mdl-cell--8-col p {
 	font-family: averia-serif-libre, serif;
-	font-size: 15px;
+	font-size: 20px;
+	font-weight: 300;
 	padding-bottom: 30px;
 	text-align: center;
-	letter-spacing: .1em;
+	/*	letter-spacing: .1em;*/
 }
